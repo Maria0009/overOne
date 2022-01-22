@@ -1,6 +1,6 @@
 //Нарисовать 2 оставшиеся треугольника с помощью *
 package lessons.lesson_5.homeWork;
-
+//+'
 public class task_5 {
     public static void main(String[] args) {
         for (int i = 0; i < 4; i++) {
@@ -39,6 +39,7 @@ public class task_5 {
                 System.out.print(" * ");
             }
             System.out.println();
+            //think of solution where you don't need to use this. Switch looks weird there
             switch (i) {
                 case 0:
                     System.out.print("   ");
