@@ -5,6 +5,7 @@ package lessons.lesson_5.homeWork;
 public class task_1 {
     public static void main(String[] args) {
         int amoeba = 1;
+        //why 3? 25 - magic number, use const
         for (int i = 3; i < 25; i += 3) {
             amoeba *= 2;
             System.out.println(i + " hours - " + amoeba + " amoeba");
