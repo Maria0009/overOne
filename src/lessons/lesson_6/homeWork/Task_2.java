@@ -1,6 +1,6 @@
 //Напишите программу вывода всех четных чисел от 2 до 100 включительно
 package lessons.lesson_6.homeWork;
-
+//cool!
 public class Task_2 {
     public static void main(String[] args) {
         final int LIMIT = 100;
