@@ -1,6 +1,6 @@
 //Напишите программу, определяющую сумму всех нечетных чисел от 1 до 99
 package lessons.lesson_6.homeWork;
-
+//+
 public class Task_3 {
     public static void main(String[] args) {
         final int LIMIT = 100;
