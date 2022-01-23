@@ -11,6 +11,7 @@ public class Task_4 {
         int sum = 0;
         System.out.println("Sum of even number:");
         while (i <= LIMIT) {
+//you could in else find the sum of odd numbers either and do not use extra loop
             if (i % 2 == 0) {
                 sum += i;
 //                System.out.println(i + " - " + sum);
@@ -33,6 +34,7 @@ public class Task_4 {
         System.out.println();
         sum = 0;
         i = 0;
+        //simplify it. You have already found sum of even and odd numbers. You do not need it
         System.out.println("Sum from 1 to 100:");
         while (i <= LIMIT) {
             sum += i;
