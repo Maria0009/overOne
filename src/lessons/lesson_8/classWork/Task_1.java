@@ -12,6 +12,7 @@ public class Task_1 {
             double numFirst1 = scanner.nextDouble();
             System.out.println("Enter second number:");
             double numSecond1 = scanner.nextDouble();
+            //it would be better to check firstly for ==0 {System.out.println("Division by 0 is forbidden")}else{...} Does not affect on result, but more beautiful:)
             if (numSecond1 != 0) {
                 System.out.println("Enter operation " +
                         "'+' -Sum; " +
