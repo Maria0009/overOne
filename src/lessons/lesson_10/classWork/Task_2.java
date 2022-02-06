@@ -1,0 +1,25 @@
+package lessons.lesson_10.classWork;
+
+import java.util.Scanner;
+
+public class Task_2 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter length array:");
+        int size = scanner.nextInt();
+        System.out.println("Enter array:");
+        int[][] array = new int[size][size];
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                array[i][j] = scanner.nextInt();
+            }
+        }
+        System.out.println("Entered array:");
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                System.out.print(array[i][j] + "\t");
+            }
+            System.out.println();
+        }
+    }
+}
