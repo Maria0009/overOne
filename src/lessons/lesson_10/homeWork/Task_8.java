@@ -1,6 +1,6 @@
 //Нарисовать бабочку
 package lessons.lesson_10.homeWork;
-
+//belicimo :)) But there is a solution, where we do not need so many for - loops (It's almost like yours)
 public class Task_8 {
     public static void main(String[] args) {
         int[][] array = new int[17][18];
