@@ -2,7 +2,7 @@
 package lessons.lesson_10.homeWork;
 
 import java.util.Scanner;
-
+//+, but there is more efficient solution :)
 public class Task_5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
