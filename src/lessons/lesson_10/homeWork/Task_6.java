@@ -4,7 +4,7 @@
 package lessons.lesson_10.homeWork;
 
 import java.util.Scanner;
-
+//+
 public class Task_6 {
     public static void main(String[] args) {
         String[][] array = new String[8][8];
