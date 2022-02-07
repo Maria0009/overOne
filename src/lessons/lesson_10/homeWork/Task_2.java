@@ -2,7 +2,7 @@
 package lessons.lesson_10.homeWork;
 
 import java.util.Scanner;
-
+//+, but you could drow a table in 1 loops
 public class Task_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
