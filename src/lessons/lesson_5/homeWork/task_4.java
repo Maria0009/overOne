@@ -10,7 +10,7 @@ public class task_4 {
         for (int i = 2; i <= 7; i++) {
             //0.1 - const
             norma += 0.1 * norma;
-            //System.out.println(i + " day " + norma + " way ");
+            System.out.println(i + " day " + norma + " way ");
             way += norma;
         }
         System.out.println("All way for 7 day: " + way + " km");

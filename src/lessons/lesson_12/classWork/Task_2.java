@@ -11,45 +11,70 @@ public class Task_2 {
         System.out.println("Entered array:");
         int[] array = new int[size];
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random()* 100 - 50);
+            array[i] = (int) (Math.random() * 100 - 50);
         }
         System.out.println(Arrays.toString(array));
-        int max=array[0];
+        int max = array[0];
         int second = array[0];
-        int min=array[0];
+        int min = array[0];
+        int third = array[0];
         for (int i = 0; i < array.length; i++) {
-            if(max<array[i]){
+            if (max < array[i]) {
                 second = max;
-                max=array[i];
-            }else if(array[i]>second && array[i] != max){
-            second = array[i];
+                max = array[i];
+            } else if (array[i] > second && array[i] != max) {
+                second = array[i];
             }
-            if(min>array[i]){
-                min=array[i];
+            if (min > array[i]) {
+                third = min;
+                min = array[i];
+            } else if (array[i] < third && array[i] != min) {
+                third = array[i];
+            }
+        }
+        System.out.println(second);
+        System.out.println(third);
+        //or
+/*
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter length array:");
+        int size = scanner.nextInt();
+        System.out.println("Entered array:");
+        int[] array = new int[size];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = (int) (Math.random() * 100 - 50);
+        }
+        System.out.println(Arrays.toString(array));
+        int max = array[0];
+        int min = array[0];
+        for (int i = 0; i < array.length; i++) {
+            if (max < array[i]) {
+                max = array[i];
+            }
+            if (min > array[i]) {
+                min = array[i];
             }
         }
         System.out.println(max);
         System.out.println(min);
-        int max1=array[0];
+        int max1 = array[0];
         for (int i = 0; i < array.length; i++) {
-            if(array[i]==max){
+            if (array[i] == max) {
                 continue;
-            }
-            else if(max1<array[i]){
-                max1=array[i];
+            } else if (max1 < array[i]) {
+                max1 = array[i];
             }
         }
         System.out.println(max1);
-        int min1=array[0];
+        int min1 = array[0];
         for (int i = 0; i < array.length; i++) {
-            if(array[i]==min){
+            if (array[i] == min) {
                 continue;
-            }
-            else if(min1>array[i]){
-                min1=array[i];
+            } else if (min1 > array[i]) {
+                min1 = array[i];
             }
         }
         System.out.println(min1);
-
+*/
     }
 }

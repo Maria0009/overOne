@@ -50,6 +50,7 @@ public class task_6 {
 
         //Second version
         //+
+
         System.out.println("Enter first number:");
         double numFirst=scanner.nextDouble();
         System.out.println("Enter second number:");

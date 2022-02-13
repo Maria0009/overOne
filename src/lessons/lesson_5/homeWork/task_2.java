@@ -11,9 +11,10 @@ public class task_2 {
         double A = scanner.nextDouble();
         double B = scanner.nextDouble();
         double multiplication = 0;
-        for (int i = 0; i < B; i++) {
+        for (int i = 0; i <Math.abs(B); i++) {
             multiplication += A;
         }
+      //  if(A<0 || B<0)
         System.out.println(A + " * " + B + " = " + multiplication);
     }
 }

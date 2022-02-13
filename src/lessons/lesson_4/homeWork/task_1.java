@@ -1,4 +1,4 @@
-        //Задачи по if-else:
+//Задачи по if-else:
 //Задача 1 Пользователь вводит 3 числа. Найти максимальное и вывести его. Решить 2 способами:
 // 1-через вложенный if, т.е if(condition){if(condition)…}…, 2 – используя логические операции
 package lessons.lesson_4.homeWork;
@@ -12,7 +12,7 @@ public class task_1 {
         double first = scanner.nextDouble();
         double second = scanner.nextDouble();
         double third = scanner.nextDouble();
-        //First method
+/*        //First method
 
         if (first > second && first > third) {
             System.out.println("Max number is: " + first);
@@ -30,7 +30,7 @@ public class task_1 {
         double maxNumber = Math.max(maxFirstSecond, third);
         System.out.println("Max number is: " + maxNumber);
         //Third method
-
+*/
         if (first > second) {
             if (first > third) {
                 System.out.println("Max number is: " + first);
@@ -46,6 +46,7 @@ public class task_1 {
                 System.out.println("Max number is: " + third);
             }
         }
+
 
     }
 }
