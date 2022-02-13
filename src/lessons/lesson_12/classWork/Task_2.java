@@ -15,10 +15,14 @@ public class Task_2 {
         }
         System.out.println(Arrays.toString(array));
         int max=array[0];
+        int second = array[0];
         int min=array[0];
         for (int i = 0; i < array.length; i++) {
             if(max<array[i]){
+                second = max;
                 max=array[i];
+            }else if(array[i]>second && array[i] != max){
+            second = array[i];
             }
             if(min>array[i]){
                 min=array[i];
