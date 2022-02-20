@@ -32,6 +32,7 @@ public class Task_4 {
         }
         return array;
     }
+//better to return this size and then only print
 
     static void evenSize(int[] array) {
         int[] arrayFirst;
