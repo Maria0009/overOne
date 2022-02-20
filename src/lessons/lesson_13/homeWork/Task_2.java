@@ -2,7 +2,7 @@ package lessons.lesson_13.homeWork;
 
 
 import java.util.Scanner;
-
+//method names should be verbs, not nouns
 //вывести числа которые являются положительными и кратными числу, которое ввел пользователь. Вывести количество совпадений
 public class Task_2 {
     public static void main(String[] args) {
@@ -18,11 +18,11 @@ public class Task_2 {
         System.out.println();
         System.out.println("Number of coincidences " + count);
     }
-
+//initSize
     static int sizeArrays(Scanner scanner) {
         return scanner.nextInt();
     }
-
+//initArray
     static int[] inArrays(Scanner scanner, int[] array) {
         for (int i = 0; i < array.length; i++) {
             array[i] = scanner.nextInt();
@@ -33,7 +33,7 @@ public class Task_2 {
     static int number(Scanner scanner) {
         return scanner.nextInt();
     }
-
+//method name should demonstrate what it does
     static int element(int number, int[] array) {
         int counter = 0;
         for (int i = 0; i < array.length; i++) {
