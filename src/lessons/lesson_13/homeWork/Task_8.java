@@ -27,7 +27,7 @@ public class Task_8 {
         }
         return charArray;
     }
-
+//findDuplicate
     static int duplicate(char[] charArray) {
         int counter = 0;
         for (int i = 0; i < charArray.length - 1; i++) {
