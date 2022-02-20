@@ -16,7 +16,7 @@ public class Task_3 {
         System.out.println(max(array));
         System.out.println(min(array));
     }
-
+//initSize
     static int size(Scanner scanner) {
         return scanner.nextInt();
     }
