@@ -40,6 +40,7 @@ public class Task_7 {
     }
 
     static int[] arrayCopyOf(int[] array) {
+//this two lines can be combined or simply return Arrays.copyOf(array, array.length)
         int[] newArray = null;
         newArray = Arrays.copyOf(array, array.length);
         return newArray;
