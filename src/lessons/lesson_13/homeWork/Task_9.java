@@ -31,7 +31,7 @@ public class Task_9 {
         }
         return arrayFirst;
     }
-
+//why did you create this method if you could just create 1 -initArray(..)? And reuse it
     static int[] arraySecond(Scanner scanner, int size) {
         int[] arraySecond = new int[size];
         for (int i = 0; i < arraySecond.length; i++) {
@@ -39,7 +39,7 @@ public class Task_9 {
         }
         return arraySecond;
     }
-
+//flag name does not say anything to me. Think about better naming, which illustrates what this method does
     static boolean flag(int[] arrayFirst, int[] arraySecond, int size) {
         boolean flag = true;
         for (int i = 0; i < size; i++) {
