@@ -17,7 +17,7 @@ public class Task_1 {
             outputArray(array);
         }
     }
-
+//initSize(..) better
     static int sizeArrays(Scanner scanner) {
         return scanner.nextInt();
     }
