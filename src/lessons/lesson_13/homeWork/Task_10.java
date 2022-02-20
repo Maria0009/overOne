@@ -18,11 +18,11 @@ public class Task_10 {
             System.out.println("Error range!");
         }
     }
-
+//bad naming
     static int parameterStart(Scanner scanner) {
         return scanner.nextInt();
     }
-
+//you already have method with the same logic. Just reuse it. 
     static int parameterEnd(Scanner scanner) {
         return scanner.nextInt();
     }
