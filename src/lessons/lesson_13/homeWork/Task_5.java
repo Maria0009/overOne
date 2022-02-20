@@ -34,7 +34,7 @@ public class Task_5 {
         }
         return array;
     }
-
+//sort
     static int[] sorting(int[] array) {
         int temp;
         for (int i = 0; i < array.length; i++) {
