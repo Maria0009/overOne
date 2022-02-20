@@ -2,7 +2,7 @@ package lessons.lesson_13.homeWork;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+//methods size and number do same actions. It's 1 method!
 //Удалить из массива определенное число
 public class Task_6 {
     public static void main(String[] args) {
