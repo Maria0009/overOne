@@ -4,6 +4,12 @@ import java.util.Arrays;
 
 //Есть массив слов. Нужно отфильтровать его так, чтобы в выходном массиве оказались слова, которые начинаются с буквы “W”/”w”.
 // Было: {"width", "ellipse", "Wrong", "hyperbola», стало: [width, Wrong]
+
+/*It is enough to use only 1 method in this task. You are doing double work here
+It's ok to combine this logic (findLengthNewString, filterArray)
+Because they are almost the same
+*/
+//+
 public class Task_6 {
     public static void main(String[] args) {
         String[] string = new String[]{"width", "ellipse", "Wrong", "hyperbola"};
