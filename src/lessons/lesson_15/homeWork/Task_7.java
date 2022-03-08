@@ -19,7 +19,7 @@ public class Task_7 {
     static String initWord(Scanner scanner) {
         return scanner.nextLine();
     }
-
+//or use contains(...) method in String class
     static int countWord(String text, String word) {
         int counter = 0;
         Pattern pattern = Pattern.compile(word);
