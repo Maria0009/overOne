@@ -8,6 +8,7 @@ import java.util.regex.Pattern;
 public class Task_1 {
     public static void main(String[] args) {
         String text = "This word has vowels and consonants letter";
+        //you could place here letters only in lower case and write Pattern.compile(letter,Pattern.CASE_INSENSITIVE) as an option:) 
         String letterVowels = "A E Y U I O a e y u i o";
         String letterConsonants = "Q W R T P S D F G H J K L Z X C V B N M q w r t p s d f g h j k l z x c v b n m";
         int counterVowels = countAllLetter(text, letterVowels);
