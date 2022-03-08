@@ -5,6 +5,8 @@ import java.util.regex.Pattern;
 
 //Пользователя просят ввести пароль. Необходимо сделать валидацию: 1)Как минимум 6 символов 2)Только буквы и цифры
 //3) Как минимум 2 цифры
+
+//https://www.youtube.com/watch?v=aLW-zyszeqM 
 public class Task_5 {
     public static void main(String[] args) {
         System.out.println("Enter password: ");
