@@ -16,7 +16,10 @@ public class Task_3 {
         char newLetter = Task_1.initLetter(scanner);
         changeLetter(text, previousLetter, mistakeLetter, newLetter);
     }
-
+//I'm not sure it works as expected. I enter first letter 'u' (it's not the last), then - i, then - b.
+//And according to your solution it will look like this - 'Fbll your fble wbth words'.
+//But I expect nothing to be changed
+// you can look at this solution - https://github.com/satan-tango/javacourse/blob/master/src/com/javacourse/lessons/les_10/homework/task_3/Task_3.java
     static void changeLetter(String[] text, String previousLetter, char mistakeLetter, char newLetter) {
         String str1 = previousLetter + mistakeLetter;
         String str2 = previousLetter + newLetter;
