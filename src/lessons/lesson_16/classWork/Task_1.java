@@ -33,6 +33,7 @@ public class Task_1 {
                 length = initLength(scanner);
                 int[] array = new int[length];
                 System.out.println("Enter array:");
+                //if you init something, then return it from method. It's a good practice. Your solution can lead to unpredictable results.
                 if (initArray == 1) {
                     initArrayFromConsole(scanner, array);
                 } else if (initArray == 2) {
@@ -125,7 +126,7 @@ public class Task_1 {
         }
         return min;
     }
-
+//return the element, not print. Printing should be after returning
     static void findElement(int[] array, int number) {
         int k = 0;
         for (int i = 0; i < array.length; i++) {
@@ -153,6 +154,7 @@ public class Task_1 {
             }
             k++;
         }
+        //it should be in another method
         System.out.println("Sorted array: " + Arrays.toString(array));
     }
 
