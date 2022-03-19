@@ -10,5 +10,4 @@ public class Fish extends Zoo {
     public String sound() {
         return "bool, bool!";
     }
-
 }

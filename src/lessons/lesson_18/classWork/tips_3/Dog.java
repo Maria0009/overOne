@@ -10,5 +10,4 @@ public class Dog extends Zoo {
     public String sound() {
         return "woof, woof!";
     }
-
 }

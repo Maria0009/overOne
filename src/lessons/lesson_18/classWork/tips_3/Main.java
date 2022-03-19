@@ -12,6 +12,5 @@ public class Main {
         zoo.add(new Elephant("Dani"));
         zoo.countOff();
 
-
     }
 }
