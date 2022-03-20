@@ -22,7 +22,8 @@ public class Catalog {
         for (int i = 0; i < count; ++i) {
             System.out.println(homes[i].getClass().getSimpleName());
             System.out.println("Number of floor: " + homes[i].getNumberFloors());
-            System.out.println(homes[i].getHeating());
+            System.out.println(homes[i].getHeating());//all the methods have 1 implementation in Home class. Maybe we can make this method abstract
+            //to practise it's usage. Just an advise:)
             System.out.println("Number of people: " + homes[i].getNumberPeople());
             System.out.println();
         }
