@@ -1,5 +1,5 @@
 package lessons.lesson_19.homeWork.point_2;
-
+//+
 public class Main {
     public static void main(String[] args) {
         Catalog catalog=new Catalog();
