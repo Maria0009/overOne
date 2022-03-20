@@ -3,6 +3,7 @@ package lessons.lesson_19.homeWork.point_2;
 public abstract class Home {
 
     private int numberFloors;
+    //maybe it can be boolean?
     private String heating;
     private int numberPeople;
 
