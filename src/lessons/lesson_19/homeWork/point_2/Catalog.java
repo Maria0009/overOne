@@ -10,7 +10,7 @@ public class Catalog {
     private Home[] homes;
 
     public Catalog() {
-        homes = new Home[20];
+        homes = new Home[20];//ok, but we can improve it by passing array length as constructor parameter
         this.count = 0;
     }
 
