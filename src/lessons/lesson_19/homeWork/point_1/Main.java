@@ -3,6 +3,7 @@ package lessons.lesson_19.homeWork.point_1;
 //Task 1 (на интерфейс)
 // Есть интерфейс Computer,у которого есть методы включить, выключить и резет.
 // Создайте класс, который бы имплементировал этот интерфейс
+//+
 public class Main {
     public static void main(String[] args) {
         Program program1 = new Program("on", "works good");
