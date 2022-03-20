@@ -1,5 +1,6 @@
 package lessons.lesson_19.homeWork.point_1;
-
+//Program is not a computer type:) You could create classes like - PC (PersonalComputer),Mac(Apple Macintosh),Notebook and ect
+//But ok, good implementation!
 public class Program implements Computer {
 
     private String turn;
