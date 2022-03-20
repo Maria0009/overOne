@@ -1,6 +1,6 @@
 package lessons.lesson_18.classWork.tips_3;
 
-public class Elephant extends Zoo {
+public class Elephant extends Animal {
 
     public Elephant(String name) {
         super(name);
