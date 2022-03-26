@@ -8,6 +8,7 @@ public class Onion extends Vegetable {
 
     @Override
     public double countCalories() {
+        //5->const
         return (getCalories() * 5 * getGram() / 100);
     }
 }
