@@ -8,6 +8,7 @@ public class Cucumber extends Vegetable {
 
     @Override
     public double countCalories() {
+        //0.45 - const
         return (getCalories() * 0.45 * getGram() / 100);
     }
 }
