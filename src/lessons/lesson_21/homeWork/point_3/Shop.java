@@ -1,5 +1,7 @@
 package lessons.lesson_21.homeWork.point_3;
 
+import java.util.Objects;
+
 //Есть HashSet магазинов. У магазина есть название и ID. Создать несколько магазинов (через оператор new Shop(..))
 // с одинаковым ID и названием и добавить их в ваш Set.
 public class Shop {
@@ -23,5 +25,18 @@ public class Shop {
     public String toString() {
         return "ShopName: '" + name + '\'' +
                 " id=" + id;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Shop shop = (Shop) o;
+        return id == shop.id && Objects.equals(name, shop.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, id);
     }
 }
