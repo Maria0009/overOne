@@ -6,7 +6,6 @@ public class Main {
         //New => start => Runable => run => Running => stop => Dead
         //меленькими это методы
         //Blocked => notify => Runable
-
         Person person1 = new Person("Ivan", "Max", "Vasiliy");
         Person person2 = new Person("Sergey", " Alex", "Roman");
         person1.start();
