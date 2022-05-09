@@ -3,6 +3,7 @@ package lessons.lesson_29.classWork.point_1;
 public class Person extends  Thread  {
 
     String[] strs;
+
     public  Person(String...strs){
         this.strs= strs;
     }
