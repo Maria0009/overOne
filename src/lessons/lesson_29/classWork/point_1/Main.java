@@ -11,5 +11,6 @@ public class Main {
         Person person2 = new Person("Sergey", " Alex", "Roman");
         person1.start();
         person2.start();
+
     }
 }
